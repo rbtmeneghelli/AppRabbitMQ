@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRabbitPublisher", "AppRabbitPublisher\AppRabbitPublisher.csproj", "{9519D755-520B-4A79-A235-EF699C1123B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRabbitConsumer", "AppRabbitConsumer\AppRabbitConsumer.csproj", "{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19AF5CC8-87ED-492D-8755-A3E8A4362047}"
+	ProjectSection(SolutionItems) = preProject
+		LEIAME.txt = LEIAME.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9519D755-520B-4A79-A235-EF699C1123B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9519D755-520B-4A79-A235-EF699C1123B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9519D755-520B-4A79-A235-EF699C1123B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9519D755-520B-4A79-A235-EF699C1123B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C20C716-4765-4749-9AC7-3D1F76951D64}
+	EndGlobalSection
+EndGlobal

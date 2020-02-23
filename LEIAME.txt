@@ -1,0 +1,21 @@
+- Instalar o docker na maquina
+- Instalar e configurar o rabbitMQ no docker
+- Adicionar a biblioteca do RabbitMQ no nuget de cada um dos projetos
+- Habilitando o Management do RabbitMQ via linha de comando:
+-> Ir na pasta do RabbitMQ e abrir o cmd na pasta sBin
+-> Rodar o comando: rabbitmq-plugins enable rabbitmq_management
+-> localhost:15672
+-> Login e Senha = guest
+
+Anotações:
+- Fazer sistemas distribuidos 
+menor acoplamento, maior coesão, permite melhor provisionamento, basea-se na comunicação entre os participantes
+- Pode-se enviar um string ou um json para enviar pro rabbitMQ
+- autoAck -> diz que a mensagem foi entregue pelo rabbitMQ 
+- publisher -> Envia a mensagem
+- consumer -> Recebe a mensagem
+
+Link:
+https://blog.cedrotech.com/rabbitmq-o-que-e-e-como-utilizar/
+https://medium.com/@renato.groffe/net-core-mensageria-exemplos-utilizando-rabbitmq-e-azure-service-bus-66a81d02a731
+https://www.rabbitmq.com/download.html
