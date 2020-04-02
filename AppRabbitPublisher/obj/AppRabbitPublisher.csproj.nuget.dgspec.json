@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj": {}
+    "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj": {}
   },
   "projects": {
-    "D:\\Git\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj": {
+    "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj",
-        "projectName": "AppRabbitPublisher",
-        "projectPath": "D:\\Git\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj",
-        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\AppRabbitMQ\\AppRabbitPublisher\\obj\\",
+        "projectUniqueName": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj",
+        "projectName": "AppRabbit.Business",
+        "projectPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj",
+        "packagesPath": "C:\\Users\\Tria06\\.nuget\\packages\\",
+        "outputPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Tria06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -30,6 +32,67 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj",
+        "projectName": "AppRabbitPublisher",
+        "projectPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitPublisher\\AppRabbitPublisher.csproj",
+        "packagesPath": "C:\\Users\\Tria06\\.nuget\\packages\\",
+        "outputPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitPublisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tria06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj": {
+                "projectPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -65,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

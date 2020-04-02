@@ -8,10 +8,20 @@
     ".NETCoreApp,Version=v3.0": {
       "AppRabbitConsumer/1.0.0": {
         "dependencies": {
+          "AppRabbit.Business": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
           "RabbitMQ.Client": "5.1.2"
         },
         "runtime": {
           "AppRabbitConsumer.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
         }
       },
       "RabbitMQ.Client/5.1.2": {
@@ -20,6 +30,11 @@
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.1.2.0"
           }
+        }
+      },
+      "AppRabbit.Business/1.0.0": {
+        "runtime": {
+          "AppRabbit.Business.dll": {}
         }
       }
     }
@@ -30,12 +45,24 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "RabbitMQ.Client/5.1.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Xhj+un0pw4N7h37SZWptxl/NEv7f1RLHwZhXjqzkCm3w3IdbFJh+HjVyPaciD848BUYLGoEQzadx90nShsbs4Q==",
       "path": "rabbitmq.client/5.1.2",
       "hashPath": "rabbitmq.client.5.1.2.nupkg.sha512"
+    },
+    "AppRabbit.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

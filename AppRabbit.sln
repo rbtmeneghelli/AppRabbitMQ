@@ -3,14 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRabbitPublisher", "AppRabbitPublisher\AppRabbitPublisher.csproj", "{9519D755-520B-4A79-A235-EF699C1123B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppRabbitPublisher", "AppRabbitPublisher\AppRabbitPublisher.csproj", "{9519D755-520B-4A79-A235-EF699C1123B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRabbitConsumer", "AppRabbitConsumer\AppRabbitConsumer.csproj", "{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppRabbitConsumer", "AppRabbitConsumer\AppRabbitConsumer.csproj", "{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19AF5CC8-87ED-492D-8755-A3E8A4362047}"
 	ProjectSection(SolutionItems) = preProject
 		LEIAME.txt = LEIAME.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRabbit.Business", "AppRabbit.Business\AppRabbit.Business.csproj", "{FF539809-991E-4F56-9DF5-CC894202946F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C6AA299-B05E-49A3-99A1-4FEBA6F8654D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF539809-991E-4F56-9DF5-CC894202946F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF539809-991E-4F56-9DF5-CC894202946F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF539809-991E-4F56-9DF5-CC894202946F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF539809-991E-4F56-9DF5-CC894202946F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\bin\Debug\netcoreapp3.0\AppRabbit.Business.deps.json
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\bin\Debug\netcoreapp3.0\AppRabbit.Business.dll
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\bin\Debug\netcoreapp3.0\AppRabbit.Business.pdb
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\obj\Debug\netcoreapp3.0\AppRabbit.Business.AssemblyInfoInputs.cache
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\obj\Debug\netcoreapp3.0\AppRabbit.Business.AssemblyInfo.cs
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\obj\Debug\netcoreapp3.0\AppRabbit.Business.dll
+D:\Pasta_Roberto\Projetos\AppRabbitMQ\AppRabbit.Business\obj\Debug\netcoreapp3.0\AppRabbit.Business.pdb

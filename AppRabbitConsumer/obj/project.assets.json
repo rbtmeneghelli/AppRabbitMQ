@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "RabbitMQ.Client/5.1.2": {
         "type": "package",
         "compile": {
@@ -10,10 +19,51 @@
         "runtime": {
           "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
+      },
+      "AppRabbit.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/AppRabbit.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppRabbit.Business.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "RabbitMQ.Client/5.1.2": {
       "sha512": "Xhj+un0pw4N7h37SZWptxl/NEv7f1RLHwZhXjqzkCm3w3IdbFJh+HjVyPaciD848BUYLGoEQzadx90nShsbs4Q==",
       "type": "package",
@@ -30,32 +80,42 @@
         "rabbitmq.client.5.1.2.nupkg.sha512",
         "rabbitmq.client.nuspec"
       ]
+    },
+    "AppRabbit.Business/1.0.0": {
+      "type": "project",
+      "path": "../AppRabbit.Business/AppRabbit.Business.csproj",
+      "msbuildProject": "../AppRabbit.Business/AppRabbit.Business.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "AppRabbit.Business >= 1.0.0",
+      "Newtonsoft.Json >= 12.0.3",
       "RabbitMQ.Client >= 5.1.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rober\\.nuget\\packages\\": {},
+    "C:\\Users\\Tria06\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\AppRabbitMQ\\AppRabbitConsumer\\AppRabbitConsumer.csproj",
+      "projectUniqueName": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitConsumer\\AppRabbitConsumer.csproj",
       "projectName": "AppRabbitConsumer",
-      "projectPath": "D:\\Git\\AppRabbitMQ\\AppRabbitConsumer\\AppRabbitConsumer.csproj",
-      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\AppRabbitMQ\\AppRabbitConsumer\\obj\\",
+      "projectPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitConsumer\\AppRabbitConsumer.csproj",
+      "packagesPath": "C:\\Users\\Tria06\\.nuget\\packages\\",
+      "outputPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbitConsumer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Tria06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -66,7 +126,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj": {
+              "projectPath": "D:\\Pasta_Roberto\\Projetos\\AppRabbitMQ\\AppRabbit.Business\\AppRabbit.Business.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -78,6 +142,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
           "RabbitMQ.Client": {
             "target": "Package",
             "version": "[5.1.2, )"
@@ -98,7 +166,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
